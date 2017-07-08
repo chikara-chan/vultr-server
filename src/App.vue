@@ -49,6 +49,9 @@ footer {
   color: #fff;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
+  @media (max-width: 1020px) {
+    display: none;
+  }
   &::after {
     position: absolute;
     left: 0;
