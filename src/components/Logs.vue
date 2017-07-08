@@ -34,7 +34,7 @@
       const loop = () => {
         this.getLogs()
           .then(() => {
-            this.timer = setTimeout(loop, 2000)
+            this.timer = setTimeout(loop, 5000)
           })
       }
 

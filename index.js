@@ -31,7 +31,7 @@ function getFilePaths (dirPath) {
 const routers = [{
   path: '/api/logs',
   requestListener (req, res) {
-    readLastLines.read('/var/log/shadowsocks.log', 1000)
+    readLastLines.read('/var/log/shadowsocks.log', 500)
       .then(logs => {
         res.writeHead(200, {'Content-Type': 'application/json'})
         res.write(JSON.stringify({logs}))
