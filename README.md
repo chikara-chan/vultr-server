@@ -1,4 +1,4 @@
-# vultr-web
+# Vultr Web
 
 > Vultr Web
 
