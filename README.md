@@ -1,7 +1,5 @@
 # Vultr Web
 
-> Vultr Web
-
 ## Build Setup
 
 ``` bash
