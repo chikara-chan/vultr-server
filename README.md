@@ -1,3 +1,5 @@
+> Deprecated
+
 # Vultr Web
 
 ## Build Setup
